@@ -5,7 +5,7 @@
 
 Name:           %{?scl_prefix}nodejs-asn1
 Version:        0.1.11
-Release:        3.1%{?dist}
+Release:        4.1%{?dist}
 Summary:        Contains parsers and serializers for ASN.1 (currently BER only)
 BuildArch:      noarch
 ExclusiveArch: %{nodejs_arches} noarch
@@ -57,6 +57,9 @@ rm -rf %buildroot
 %doc LICENSE README.md
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.1.11-4.1
+- rebuilt
+
 * Wed Dec 11 2013 Tomas Hrcka <thrcka@redhat.com> - 0.1.11-3.1
 - enable scl support
 
